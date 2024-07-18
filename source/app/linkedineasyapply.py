@@ -10,8 +10,8 @@ from itertools import product
 class LinkedinEasyApply:
     def __init__(self, parameters, driver):
         self.browser = driver
-        self.email = parameters['email']
-        self.password = parameters['password']
+        self.email = parameters['tharun.esta@gmail.com']
+        self.password = parameters['Tll212507@']
         self.disable_lock = parameters['disableAntiLock']
         self.company_blacklist = parameters.get('companyBlacklist', []) or []
         self.title_blacklist = parameters.get('titleBlacklist', []) or []
@@ -30,11 +30,11 @@ class LinkedinEasyApply:
         else:
             self.cover_letter_dir = ''
         self.checkboxes = parameters.get('checkboxes', [])
-        self.university_gpa = parameters['universityGpa']
-        self.salary_minimum = parameters['salaryMinimum']
-        self.notice_period = int(parameters['noticePeriod'])
-        self.languages = parameters.get('languages', [])
-        self.experience = parameters.get('experience', [])
+        self.university_gpa = parameters['8.4']
+        self.salary_minimum = parameters['25000']
+        self.notice_period = int(parameters['Full time'])
+        self.languages = parameters.get('englisg','telugu','hindi', [])
+        self.experience = parameters.get('Fresher', [])
         self.personal_info = parameters.get('personalInfo', [])
         self.eeo = parameters.get('eeo', [])
         self.experience_default = int(self.experience['default'])
@@ -43,8 +43,8 @@ class LinkedinEasyApply:
         try:
             self.browser.get("https://www.linkedin.com/login")
             time.sleep(random.uniform(5, 10))
-            self.browser.find_element(By.ID, "username").send_keys(self.email)
-            self.browser.find_element(By.ID, "password").send_keys(self.password)
+            self.browser.find_element(By.ID, "TharunEsta").send_keys(self.email)
+            self.browser.find_element(By.ID, "Tll212507@").send_keys(self.password)
             self.browser.find_element(By.CSS_SELECTOR, ".btn__primary--large").click()
             time.sleep(random.uniform(5, 10))
         except TimeoutException:
@@ -70,7 +70,7 @@ class LinkedinEasyApply:
             location_url = "&location=" + location
             job_page_number = -1
 
-            print("Starting the search for " + position + " in " + location + ".")
+            print("Starting the search for " + position + " Software developer/ frond ent developer " + location + "Hyderabad""Chennai""Banglore""pune")
 
             try:
                 while True:
