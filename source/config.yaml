@@ -1,6 +1,6 @@
 # Add your LinkedIn email ID and password. WARNING: KEEP THIS OFFLINE ON YOUR PC AND DO NOT COMMIT/UPLOAD.
-email: email@domain.com
-password: yourpassword
+email: tharun.esta@gmail.con
+password: Tll212507@
 
 # Anti-lock default is False to prevent your PC from sleeping to allow bot to run uninterrupted.
 # Set it to True if you wish to disable this functionality.
@@ -13,7 +13,7 @@ remote: False
 lessthanTenApplicants: False
 
 # Set to True or False to suit your preference. Multiple True allowed.
-experienceLevel:
+experienceLevel: Fresher
  internship: False
  entry: True
  associate: True
@@ -22,7 +22,7 @@ experienceLevel:
  executive: False
 
 # Set to True or False to suit your preference. Multiple True allowed.
-jobTypes:
+jobTypes: Software Developer/ Front End Developer
  full-time: True
  contract: True
  part-time: False
@@ -32,21 +32,28 @@ jobTypes:
  volunteer: False
 
 # Set ONLY one as True to suit your preference.
-date:
+date: 18/07/2024
  all time: True
  month: False
  week: False
  24 hours: False
 
 # Remove hash sign to add positions. You can add as many as you need, but preserve formatting
-positions:
+positions: Software developer
+            SQL developer
+            Web Developer
+            Java Developer
  #- First position
  #- A second position
  #- A third position
  #- ...
 
 # Remove hash sign to add locations. You can add as many as you need including adding 'Remote' as a location but first location must be a valid country.
-locations:
+locations:Hyderabad
+          Banglore
+          Chennai 
+          Pune
+          Remote
  #- First location
  #- A second location
  #- A third location
@@ -112,9 +119,9 @@ checkboxes:
  # Do you have security clearance of [xxx] country? (yes/no checkbox)
  securityClearance: False
  # Have you completed the following level of education: DEGREE TYPE? Remove applicable # signs (yes/no checkbox)
- degreeCompleted:
+ degreeCompleted: 
   # - High School Diploma
-  # - Bachelor's Degree
+  # - Bachelor's Degree : Bachelor of computer applications (BCA)
   # - Associate's Degree
   # - Master's Degree
   # - Master of Business Administration
@@ -125,16 +132,16 @@ checkboxes:
  backgroundCheck: True
 
 # ------------ Additional parameters: universityGpa ---------------
-universityGpa: 3.0
+universityGpa: 8.4
 
 # ------------ Additional parameters: salaryMinimum ---------------
 salaryMinimum: 35000
 
 # ------------ Additional parameters: languages ---------------
 languages:
- english: Native or bilingual # Allowed choices { None, Conversational, Professional, Native or bilingual }
- # arabic:
- # french:
+ english:  convarsational # Allowed choices { None, Conversational, Professional, Native or bilingual }
+ # telugu:native
+ # hindi: Convarsational 
 
 # ------------ Additional parameters: noticePeriod in weeks ---------------
 noticePeriod: 8
@@ -207,22 +214,22 @@ experience:
 
 # ------------ Additional parameters: personal info ---------------
 personalInfo:
- Pronouns: Mr.
- First Name: FirstName
- Last Name: LastName
- Phone Country Code: Canada (+1) # See Linkedin for your country code, must be exact according to the international platform, i.e. Italy (+39) not Italia (+39)
- Mobile Phone Number: 1234567890
- Street address: 123 Fake Street
- City: Red Deer, Alberta # Include the state/province as well!
- State: YourState
- Zip: YourZip/Postal
- Linkedin: https://www.linkedin.com/in/my-linkedin-profile
+ Pronouns: Mr. Tharun Esta
+ First Name: Esta
+ Last Name: Tharun
+ Phone Country Code: India (+91)# See Linkedin for your country code, must be exact according to the international platform, i.e. Italy (+39) not Italia (+39)
+ Mobile Phone Number: 9014719422
+ Street address: Dream valley road, Mallampet, Hyderabad
+ City: Mallampet, Hyderabad # Include the state/province as well!
+ State: Telangana
+ Zip: 502303
+ Linkedin: https://www.linkedin.com/in/tharun-esta-30035624a?jobid=1234&lipi=urn%3Ali%3Apage%3Ad_jobs_easyapply_pdfgenresume%3Bhrv7AuL7Rn%2B%2BxV7PKvs5ew%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_jobs_easyapply_pdfgenresume-v02_profile
  Website: https://www.my-website.com # github/website is interchangeable here
  MessageToManager: "Hi, I am interested to join your organization. Please have a look at my resume. Thank you." # Keep message short and within the quotes. This is a testing feature and may not work.
 
 # ------------ Additional parameters: USA employment crap ---------------
-eeo:
- gender: None
+eeo: 
+ gender: Male
  race: None
  veteran: None
  disability: None
